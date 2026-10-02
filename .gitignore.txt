@@ -1,0 +1,100 @@
+##################################
+# BLENDER CORE
+##################################
+ 
+# Blender backups & autosaves
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+ 
+# If your .blend files are TOO BIG (>100MB), ignore them:
+# (Uncomment the next line if needed)
+# *.blend
+ 
+ 
+##################################
+# SIMULATION & CACHE FILES
+##################################
+ 
+# Fluid, smoke, cloth, rigid body caches
+cache/
+Cache/
+*_cache/
+*.bphys
+*.vdb
+ 
+# Mantaflow / physics caches
+blendcache_*/
+ 
+ 
+##################################
+# RENDER OUTPUT (VERY LARGE)
+##################################
+ 
+# Image sequences
+renders/
+Render/
+output/
+frames/
+*.png
+*.jpg
+*.jpeg
+*.exr
+*.tiff
+ 
+# Video outputs
+*.mp4
+*.mov
+*.avi
+*.mkv
+ 
+ 
+##################################
+# AUDIO (OPTIONAL - depends on size)
+##################################
+ 
+# Uncomment if using large audio files
+# *.wav
+# *.mp3
+ 
+ 
+##################################
+# TEXTURES & ASSETS
+##################################
+ 
+# If you have VERY large textures, ignore them:
+# textures/high_res/
+# *.hdr
+# *.hdri
+ 
+# Otherwise KEEP textures if reasonable size
+ 
+ 
+##################################
+# TEMP / SYSTEM FILES
+##################################
+ 
+*.tmp
+*.temp
+*.bak
+ 
+# OS junk
+.DS_Store
+Thumbs.db
+ 
+ 
+##################################
+# PYTHON (if scripting)
+##################################
+ 
+__pycache__/
+*.pyc
+ 
+ 
+##################################
+# EDITOR / TOOLING
+##################################
+ 
+.vscode/
+.idea/
